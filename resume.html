@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Resume</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cantarell|Fjalla+One" rel="stylesheet">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- This is the top header-->
+		<div class="header">
+			<div class="container">
+				<h1 class="intro"><a href="index.html">Andrea Eibergen</a></h1>
+				<p class= "intro">Cartographer | Geographer | Yogurt Enthusiast</p>
+			</div>
+		</div>
+
+		<!-- This is the navbar -->
+		<nav class="navbar"> <!--Creates navbar-->
+			<div class="container">
+				<div class="navbar-header"> <!--Creates the navbar header-->
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+						aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span> <!--Used for screen readers for accessibility-->
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+						<span class="menu">Menu</span>
+					</button> <!--Hamburger button for smaller devices-->
+					<!-- <a class="navbar-brand" href="index.html">Work</a> --> <!--Your website brand name-->
+				</div>
+				<div id="navbar" class="collapse navbar-collapse"> <!--Links in navbar-->
+					<ul class="nav navbar-nav pull-right"> <!-- Unordered list for links on navbar -->
+						<li><a href="index.html">Work</a></li>
+						<li><a href="aboutme.html">About</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div> <!-- end .navbar-collapse -->
+			</div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h3 class="resume">
+						<b>Experience</b></h3>
+					<h4><b>Student GIS Developer</b></h4>
+					<div class="job">
+						<p>State Cartographer's Office, Science Hall, Madison, WI</p>
+						<p class=italics>November 2017-present</p>
+						<p>Job Responsibilities:<br>Creating interactive maps using Javascript, HTML, and CSS <br>Processing Geospatial data</p>
+					</div>
+					<h4><b>Science Hall Help Desk</b></h4>
+					<div class="job">
+						<p>University of Wisconsin-Madison Science Hall, Madison, WI</p>
+						<p class=italics>October 2016-October 2017</p>
+						<p>Maintaining computer systems for UW Geography Department and Nelson Institute for Environmental Studies<br>Provide technical support and troubleshooting
+						</p>
+					</div>
+					<h4><b>GIS Intern</b></h4>
+					<div class="job">
+						<p>Rusk County Department of Survey and Land Information</p>
+						<p class=italics>May 2017-October 2017</p>
+						<p>Using ESRI ArcMap desktop and online software to create maps for various county organizations<br>Creating shapefiles by using ArcGIS Collector app and Trimble GPS Receiver Unit
+						</p>
+					</div>
+					<h3 class="resume"><b>Education</b></h3>
+					<div class="job">
+						<p>University of Wisconsin–Madison, Madison, WI<br>Expected Graduation 2019<br>GPA 3.6</p>
+					</div>
+					<h3 class="resume"><b>Skills</b></h3>
+					<div class="job">
+						<img src="../img/skills.png" alt=" " class="skills-img">
+					</div>
+					<h4> Download a PDF of my resume
+						<a style="color: #668FAB" target="_blank" href="../img/EibergenResume2017.pdf"> here</a>
+				</div>
+			</div>
+		</div>
+		<!--put your initial page content here-->
+
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="lib/bootstrap.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
